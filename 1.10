@@ -1,0 +1,10 @@
+#include<stdio.h>
+int main()
+{
+    float we,wm;
+    printf("Enter your weight in the earth :");
+    scanf("%f",&we);
+    wm=we*.17;
+    printf("Your weight is about %f in the surface of Moon\n",wm);
+
+}
