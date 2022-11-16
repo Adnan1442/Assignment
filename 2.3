@@ -1,0 +1,118 @@
+/*
+
+#include<stdio.h>
+void conv(int choice);
+int main()
+{
+    int choice;
+    printf("1. meters to feet\n 2. feet to meter\n");
+    printf("What are u want to see?--");
+    scanf("%d",&choice);
+    printf("%d\n",choice);
+
+    conv(choice);
+}
+
+void conv(int ch)
+{
+    if (ch == 1)
+    {
+        float a;
+        printf("Value in meter:- ");
+        scanf("%f",&a);
+        printf("Value is feet is %f\n",a/3.28);
+
+    }
+    else
+    {
+      float a;
+        printf("Value is feet:- ");
+        scanf("%f",&a);
+        printf("Value in meter is %f\n",a*3.28);
+    }
+
+}
+
+*/
+
+/*
+
+#include<stdio.h>
+int main()
+{
+    printf("What is 10+14?");
+    int ans;
+    scanf("%d",&ans);
+
+    check(ans);
+}
+ void check(int answer)
+ {
+    if(answer == 24)
+    {
+        printf("The answer is right");
+    }
+    if (answer !=24)
+    {
+        printf("Sorry U r wrong.");
+        printf("The correct answer is 24.");
+    }
+ }
+*/
+
+/*
+
+#include<stdio.h>
+int result(int ch,int x,int y);
+int main()
+{
+    printf("Which do u want?");
+    printf("1. addition 2. Multiplication");
+    int choice;
+    scanf("%d",&choice);
+    printf("Enter the two value: ");
+    int a,b;
+
+    scanf("%d%d",&a,&b);
+    int x=result(choice,a,b);
+    printf("The result is %d",x);
+
+}
+
+int result(int ch,int x,int y)
+{
+    int res;
+    if (ch == 1)
+        res=x+y;
+    if(ch ==2)
+        res=x*y;
+    return res;
+}
+*/
+
+
+#include<stdio.h>
+int result(int ch,int x,int y);
+int main()
+{
+    printf("Which do u want?");
+    printf("1. addition 2. Multiplication");
+    int choice;
+    scanf("%d",&choice);
+    printf("Enter the two value: ");
+    int a,b;
+
+    scanf("%d%d",&a,&b);
+    int x=result(choice,a,b);
+    printf("The result is %d",x);
+
+}
+
+int result(int ch,int x,int y)
+{
+    int res;
+    if (ch == 1)
+        res=x+y;
+    if(ch ==2)
+        res=x*y;
+    return res;
