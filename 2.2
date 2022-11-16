@@ -1,0 +1,65 @@
+
+/*
+#include<stdio.h>
+int main()
+
+{
+    double x;
+    printf("Enter a number:");
+    scanf("%lf",&x);
+
+    if (x<0)
+    {
+        printf("This is a negative number.\n");
+
+    }
+    else
+    {
+        printf("This is a non-negative number.\n");
+    }
+}*/
+
+
+/*
+#include<stdio.h>
+int main()
+{
+   float a,b;
+    printf("Enter two numbers: ",a,b);
+    scanf("%f%f",&a,&b);
+
+    if(b != 0)
+    {
+        printf("The result is %f/%f =%f\n",a,b,a/b);
+    }
+    else
+    {
+        printf("The answer could not be found\n");
+    }
+
+}*/
+
+
+
+#include<stdio.h>
+int x,y,s;
+int main()
+{
+    printf("Enter two number: ");
+    scanf("%d%d",&x,&y);
+    printf("What do you want?\n 1.summation\n 2. Multiplication \n");
+    printf("Show me: ");
+    scanf("%d",&s);
+    ans();
+
+    return main();
+}
+
+void ans()
+{
+    if(s==1){
+        printf("The answer of the summation is %d",x+y);}
+        if (s==2){
+            printf("The answer of the Multiplication is %d\n", x*y);}
+
+}
